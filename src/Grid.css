@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.kard{
+    
+    margin-top: 100px;
+}
+.logo2{
+    width: 100}
+
+  .kard-body{
+      justify-content: center;
+      align-items: center;
+      margin-left: 45%;
+      font-size: small;
+      
+  }

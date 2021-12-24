@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-ontainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-le {
+    font-size: medium;
+    padding: 10px;
+    flex: 40%;
+  }
+  
+  .flex-item-ri {
+   font-size: medium;
+    padding: 10px;
+    flex: 40%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-ontainer {
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .tank {
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: center;
+    margin:2px;
+  
+   
+  }
+  
+  .flex-item-l {
+    background-color: #f1f1f1;
+  
+    flex: 25%;
+    margin:10px;
+    border: grey solid .01px ;
+  }
+  
+  .flex-item-r {
+    border: grey solid .01px ;
+   
+    flex: 25%;
+    margin:10px;
+  }
+  
+  .flex-item-s {
+    border: grey solid .01px ;
+  
+    flex: 25%;
+    margin:10px;
+  }
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .tank {
+      flex-direction: column;
+   
+      align-items: center;
+    }
+  }
+
+  .sab {
+    display: flex;
+    flex-direction: row;
+  background-color: black;
+    margin:2px;
+  
+   
+  }
+  .one {
+   
+  color: gray;
+    flex: 25%;
+    margin:10px;
+    color: grey ;
+  }
+  .two {
+  
+  color: grey;
+    flex: 25%;
+    margin:10px;
+    
+  }
+  @media (max-width: 800px) {
+    .sab {
+      flex-direction: column;
+    }
+  }
